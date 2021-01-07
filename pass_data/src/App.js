@@ -107,7 +107,6 @@ class App extends Component {
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
         <h2>Favorite Movies</h2>
-        <div>
           {Object.keys(users).map((key, index) => (
               <Movie
                 key={key}
@@ -116,7 +115,6 @@ class App extends Component {
                 user={users[key]}
               />
           ))}
-        </div>
       </div>
     );
   }
