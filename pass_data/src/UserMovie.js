@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 
 
-class Movie extends Component {
+class UserMovie extends Component {
 	render(){
         const user = this.props.user
         const profiles = this.props.profiles
@@ -19,4 +19,4 @@ class Movie extends Component {
     }  
 }
 
-export default Movie;
+export default UserMovie;
